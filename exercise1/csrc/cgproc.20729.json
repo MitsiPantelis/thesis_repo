@@ -1,0 +1,99 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                0.33604309591464698,
+                0.16490299999999999,
+                0.073955999999999994,
+                172892,
+                187440,
+                1667209218.865221
+            ],
+            "nMops": 0,
+            "end_perf": [
+                0.35269809584133327,
+                0.16998099999999999,
+                0.077991000000000005,
+                175476,
+                187440
+            ],
+            "nQuads": 0
+        },
+        "c1355": {
+            "start_perf": [
+                0.35296809591818601,
+                0.17014699999999999,
+                0.078066999999999998,
+                175476,
+                187440,
+                1667209218.8821459
+            ],
+            "Compiled": "Yes",
+            "Compiled Times": 2,
+            "nMops": 16841,
+            "end_perf": [
+                0.63379909587092698,
+                0.44301699999999999,
+                0.086002999999999996,
+                179240,
+                187440
+            ],
+            "nQuads": 7433
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "mode": 4,
+            "bytes": 4622,
+            "checksum": 0
+        },
+        "ckj11_d": {
+            "mod": "c1355",
+            "out": "ckj11_d.o",
+            "mode": 4,
+            "bytes": 168052,
+            "checksum": 0,
+            "archive": "archive.1/_20729_archive_1.a"
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.1/_20729_archive_1.a",
+            "objects": [
+                [
+                    "ckj11_d.o",
+                    168052
+                ],
+                [
+                    "amcQwB.o",
+                    57048
+                ]
+            ],
+            "size": 225100
+        }
+    ],
+    "stat": {
+        "ru_self_end": {
+            "ru_utime_sec": 0.45016299999999998,
+            "ru_majflt": 3,
+            "ru_stime_sec": 0.090032000000000001,
+            "ru_maxrss_kb": 57388,
+            "ru_nvcsw": 34,
+            "ru_minflt": 19274,
+            "ru_nivcsw": 34
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0018860000000000001,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.0056579999999999998,
+            "ru_maxrss_kb": 13368,
+            "ru_nvcsw": 1,
+            "ru_minflt": 660,
+            "ru_nivcsw": 2
+        },
+        "peak_mem_kb": 187440
+    }
+}

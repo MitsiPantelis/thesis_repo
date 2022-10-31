@@ -1,0 +1,36 @@
+WARNING:  file defined by STDMACROS environment variable was not found at:
+          '/eda/synopsys/2017-18/RHELx86/SYN_2017.09-SP3/auxx/syn/stdmacros.dat'
+
+WARNING:  User's Guide 'tmax_ug.pdf' missing or no read permission. Was expected at:
+          '/eda/synopsys/2017-18/RHELx86/SYN_2017.09-SP3/doc/test/tmax/tmax_ug.pdf'
+
+WARNING:  Test Pattern Validation Users Guide 'tpv_ug.pdf' missing or no read permission. Was expected at:
+          '/eda/synopsys/2017-18/RHELx86/SYN_2017.09-SP3/doc/test/tpv_ug.pdf'
+
+                                  TetraMAX(R) 
+
+
+               Version N-2017.09-SP3 for linux64 - Jan 18, 2018  
+
+                    Copyright (c) 1996 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+read netlist c3540_synth.v
+ Begin reading netlist ( c3540_synth.v )...
+ End parsing Verilog file c3540_synth.v with 0 errors.
+ End reading netlist: #modules=10, top=c3540, #lines=1713, CPU_time=0.01 sec, Memory=1MB
+read netlist $UMC_LIB/verilog_simulation_models/*.v
+ Begin reading netlists ( $UMC_LIB/verilog_simulation_models/*.v )...
+ End reading netlists: #files=506, #errors=0, #modules=530, top=NOR4M2D4, #lines=29130, CPU_time=0.25 sec, Memory=11MB
+run build_model c3540
+ ------------------------------------------------------------------------------
+ Begin build model for topcut = c3540 ...
+ ------------------------------------------------------------------------------
+ Error: Module ( c3540 ) referenced undefined module ( GTECH_NOT ). (B5-1)
+ Warning: Current simulation model is now deleted. (M39)
+
+BUILD> 

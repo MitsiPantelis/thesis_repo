@@ -1,0 +1,96 @@
+{
+    "LVLData": [
+        "SIM"
+    ],
+    "MlibObjs": {},
+    "Misc": {
+        "default_output_dir": "csrc",
+        "cwd": "/localdisk/users/pmit/vlsi_testing_lab2/exercise1",
+        "csrc": "csrc",
+        "csrc_abs": "/localdisk/users/pmit/vlsi_testing_lab2/exercise1/csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.0",
+        "daidir_abs": "/localdisk/users/pmit/vlsi_testing_lab2/exercise1/simv.daidir"
+    },
+    "PEModules": [],
+    "PrevCompiledModules": {},
+    "stat": {
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_nivcsw": 0,
+            "ru_nvcsw": 0,
+            "ru_majflt": 0,
+            "ru_minflt": 0
+        },
+        "totalObjSize": 126010,
+        "peak_mem_kb": 187020,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.13947799999999999,
+            "ru_stime_sec": 0.16434699999999999,
+            "ru_maxrss_kb": 48516,
+            "ru_nivcsw": 31,
+            "ru_nvcsw": 846,
+            "ru_majflt": 754,
+            "ru_minflt": 15895
+        },
+        "Frontend(%)": 45.654152073581876,
+        "nMops": 11165,
+        "ru_self_end": {
+            "ru_utime_sec": 0.30551,
+            "ru_stime_sec": 0.17503199999999999,
+            "ru_maxrss_kb": 54792,
+            "ru_nivcsw": 35,
+            "ru_nvcsw": 890,
+            "ru_majflt": 789,
+            "ru_minflt": 17503
+        },
+        "nQuads": 4471,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_nivcsw": 0,
+            "ru_nvcsw": 0,
+            "ru_majflt": 0,
+            "ru_minflt": 0
+        },
+        "mopSpeed": 67246.07304615977,
+        "quadSpeed": 26928.543895152739,
+        "mop/quad": 2.4972042048758669,
+        "outputSizePerQuad": 28.183851487363007,
+        "CodeGen(%)": 54.345847926418124
+    },
+    "NameTable": {
+        "c1355": [
+            "c1355",
+            "ckj11",
+            "module",
+            1
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            2
+        ]
+    },
+    "CurCompileUdps": {},
+    "CompileStrategy": "fullobj",
+    "CompileProcesses": [
+        "cgproc.20290.json"
+    ],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 37902,
+        "archive": "archive.0/_20290_archive_1.a"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "c1355",
+        "c1355"
+    ],
+    "CompileStatus": "Successful"
+}

@@ -1,0 +1,80 @@
+0 
+28
++cli+4
++itf+/eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -m32 -m32 -rdynamic
+-Mobjects= /eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/libvirsim.so /eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/liberrorinf.so /eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/libsnpsmalloc.so /eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/include
+-debug=3
+-gen_obj
+-gui
+-picarchive
+-ucli
+/eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/bin/vcs1
+c1355.v
+38
+sysc_uni_pwd=/localdisk/users/pmit/vlsi_testing_lab2/exercise1
+XDG_DATA_DIRS=/localdisk/users/pmit/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=32
+VC_STATIC_HOME=/eda/synopsys/2017-18/RHELx86/SYN_2017.09-SP3/../VC_2017.12-1
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UNAME=/bin/uname
+UMC_LIB=/localdisk/libraries/UMCL18U250D2_2.4
+TOOL_HOME=/eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux
+SYNOPSYS=/eda/synopsys/2017-18/RHELx86/SYN_2017.09-SP3
+SSH_TTY=/dev/pts/4
+SSH_CONNECTION=109.242.232.75 25444 150.140.141.106 22
+SSH_CLIENT=109.242.232.75 25444 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPS_VCS_CLANG_PATH=/fs/src/interfaces/LLVM_Project/QSCM/opt/llvm-3.9.1/linux64
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:/localdisk/modulefiles
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_TYPE=en_US.utf8
+LC_ALL=en_US.utf8
+KDEDIRS=/usr
+HISTCONTROL=ignoredups
+CVS_RSH=ssh
+CADENCE=/eda/cadence
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+0
+2
+1666888547 c1355.v
+1516334765 /eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/vcsdp.tab
+5
+0 
+1516337752 /eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/libvirsim.so
+1516336481 /eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/liberrorinf.so
+1516336452 /eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/libsnpsmalloc.so
+1516337185 /eda/synopsys/2017-18/RHELx86/VCSMX_2017.12-1/linux/lib/libvfs.so
+1667209220 simv.daidir
